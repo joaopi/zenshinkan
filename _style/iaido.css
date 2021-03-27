@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {margin:0px 0px 100px 0px; padding:0px; background-color:#DDDDCC; font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:12px; color:#333333;}
+
+#master {width:510px; margin:0px auto; padding:0px;}
+#header_top {margin:0px 0px 60px 0px; padding:0px; zoom: 1;}
+#header_menu {margin:0px 0px 30px 0px; padding:0px; zoom: 1;}
+#header_bottom {}
+#content {}
+#footer {margin-top:20px;}
+	
+#col_01_left {width:160px; margin-right:15px; padding:0px; float:left;}
+#col_01_right {width:160px; margin-right:0px; padding:0px; float:left;}
+#col_01_id {width:160px; margin-right:15px; padding:0px; float:left; text-align:center;}
+#col_02 {width:335px; margin-right:0px; padding:0px; float:left;}
+#col_left {float:left; width:80%; text-align:left;}
+#col_right {float:right; text-align:right;}
+
+#content #col_02 {text-align:justify;}
+#content #col_01_left, #content #col_01_right {text-align:left;}
+#footer #col_02 {text-align:right;}
+
+a.menu_off { color:#333333; text-decoration:none;}
+a.menu_off:hover {color:#CC0000; text-decoration:none;}
+a.menu_off div {padding:2px 0px; margin:3px 0px;}
+a.menu_off:hover div {background:#D2D2C2;}
+
+a.menu_off_plus { color:#333333; text-decoration:none;}
+a.menu_off_plus:hover {color:#CC0000; text-decoration:none;}
+a.menu_off_plus div {padding:2px 0px; margin:3px 0px; background:url(../_img/com/arrow_off.gif) right no-repeat;}
+a.menu_off_plus:hover div {background:url(../_img/com/arrow_on.gif) #D2D2C2 right no-repeat;}
+
+a.menu_on {color:#CC0000; text-decoration:none;}
+a.menu_on:hover {text-decoration:none;}
+a.menu_on div {padding:2px 0px; margin:3px 0px;}
+a.menu_on:hover div {background:#D2D2C2;}
+
+a.menu_on_plus { color:#CC0000; text-decoration:none;}
+a.menu_on_plus:hover {text-decoration:none;}
+a.menu_on_plus div {padding:2px 0px; margin:3px 0px; background:url(../_img/com/arrow_on.gif) right no-repeat;}
+a.menu_on_plus:hover div {background-color:#D2D2C2;}
+
+
+div.menu_empty {padding:5px 0px;}
+
+a {color:#CC0000; text-decoration:none;}
+a:hover { text-decoration:underline;}
+
+#page_title {margin:35px 0px 15px 0px; text-align:left;}
+#page_title #title { font-size:11px; font-weight:bold; color:#CC0000; margin-bottom:5px;}
+#page_item {margin:35px 0px 15px 0px; text-align:left;}
+#page_item #title { font-size:11px; font-weight:bold; color:#333333; margin-bottom:5px;}
+#col_title {margin:35px 0px 15px 0px; text-align:left;}
+#col_title #title { font-size:11px; font-weight:bold; color:#333333; margin-bottom:5px;}
+#title { font-size:11px; font-weight:bold; color:#333333; margin-bottom:10px; text-align:left;}
+#title_small { font-size:10px; font-weight:bold; color:#333333; margin-bottom:2px; text-align:left;}
+#date { font-size:10px; color:#666666; margin-bottom:2px; text-align:left;}
+
+img.logo { margin-top:15px; border:none;}
+img.selo { margin-top:15px; border:none;}
+img.line_darkgray_heavy { width:100%; height:5px; background-color:#333333;}
+img.line_darkgray_thin { width:100%; height:1px; background-color:#333333;}
+img.line_lightgray_thin { width:100%; height:1px; background-color:#999999;}
+img.line_lightgray_thinlist { width:100%; height:1px; background-color:#999999; margin:5px 0px;}
+img.line_lightgray_thinlistplus { width:100%; height:1px; background-color:#999999; margin:15px 0px;}
+img.line_lightgray_thinlistlast { width:100%; height:1px; background-color:#999999; margin:5px 0px 0px 0px;}
+img.separator { vertical-align:baseline;}
+
+img.photo { margin:0px 0px 10px 0px; border:none;}
+img.photo_left { margin:0px 15px 10px 0px; border:none;}
+img.photo_leftfloat { margin:0px 10px 15px 0px; float:left; border:none;}
+img.photo_right { margin:0px 0px 10px 0px; border:none;}
+img.photo_rightfloat { margin:0px 0px 10px 15px; float:right; border:none;}
+img.photo_wide { margin:0px 0px 10px 0px; border:none;}
+
+img.gallery_preview { margin:0px; border:none;}
+table.gallery_photo {width:335px; height:335px; background-color:#FFFFFF; margin-bottom:5px;}
+table.gallery_photo td {text-align:center; vertical-align:middle;}
+table.gallery_photo img {border:none;}
+table.gallery_thumb {margin-bottom:5px;}
+table.gallery_thumb td.thumb {text-align:center; vertical-align:middle; width:55px; height:55px; background-color:#FFFFFF;}
+table.gallery_thumb img {border:none;}
+
+
+.clearfloat {clear:both; height:0; font-size:1px; line-height:0px;}
