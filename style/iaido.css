@@ -28,8 +28,8 @@ a.menu_off:hover div {background:#D2D2C2;}
 
 a.menu_off_plus { color:#333333; text-decoration:none;}
 a.menu_off_plus:hover {color:#CC0000; text-decoration:none;}
-a.menu_off_plus div {padding:2px 0px; margin:3px 0px; background:url(../_img/com/arrow_off.gif) right no-repeat;}
-a.menu_off_plus:hover div {background:url(../_img/com/arrow_on.gif) #D2D2C2 right no-repeat;}
+a.menu_off_plus div {padding:2px 0px; margin:3px 0px; background:url(../img/com/arrow_off.gif) right no-repeat;}
+a.menu_off_plus:hover div {background:url(../img/com/arrow_on.gif) #D2D2C2 right no-repeat;}
 
 a.menu_on {color:#CC0000; text-decoration:none;}
 a.menu_on:hover {text-decoration:none;}
@@ -38,7 +38,7 @@ a.menu_on:hover div {background:#D2D2C2;}
 
 a.menu_on_plus { color:#CC0000; text-decoration:none;}
 a.menu_on_plus:hover {text-decoration:none;}
-a.menu_on_plus div {padding:2px 0px; margin:3px 0px; background:url(../_img/com/arrow_on.gif) right no-repeat;}
+a.menu_on_plus div {padding:2px 0px; margin:3px 0px; background:url(../img/com/arrow_on.gif) right no-repeat;}
 a.menu_on_plus:hover div {background-color:#D2D2C2;}
 
 
